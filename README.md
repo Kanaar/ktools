@@ -1,5 +1,5 @@
 # Data analysis
-- Document here the project: kanaar_python_lib
+- Document here the project: ktools
 - Description: Project Description
 - Data Source:
 - Type of analysis:
@@ -22,15 +22,15 @@ Unittest test:
 make clean install test
 ```
 
-Check for kanaar_python_lib in gitlab.com/{group}.
+Check for ktools in gitlab.com/{group}.
 If your project is not set please add it:
 
-- Create a new project on `gitlab.com/{group}/kanaar_python_lib`
+- Create a new project on `gitlab.com/{group}/ktools`
 - Then populate it:
 
 ```bash
-##   e.g. if group is "{group}" and project_name is "kanaar_python_lib"
-git remote add origin git@github.com:{group}/kanaar_python_lib.git
+##   e.g. if group is "{group}" and project_name is "ktools"
+git remote add origin git@github.com:{group}/ktools.git
 git push -u origin master
 git push -u origin --tags
 ```
@@ -41,12 +41,12 @@ Functionnal test with a script:
 cd
 mkdir tmp
 cd tmp
-kanaar_python_lib-run
+ktools-run
 ```
 
 # Install
 
-Go to `https://github.com/{group}/kanaar_python_lib` to see the project, manage issues,
+Go to `https://github.com/{group}/ktools` to see the project, manage issues,
 setup you ssh public key, ...
 
 Create a python3 virtualenv and activate it:
@@ -59,8 +59,8 @@ deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
 Clone the project and install it:
 
 ```bash
-git clone git@github.com:{group}/kanaar_python_lib.git
-cd kanaar_python_lib
+git clone git@github.com:{group}/ktools.git
+cd ktools
 pip install -r requirements.txt
 make clean install test                # install and test
 ```
@@ -70,5 +70,5 @@ Functionnal test with a script:
 cd
 mkdir tmp
 cd tmp
-kanaar_python_lib-run
+ktools-run
 ```

@@ -1,5 +1,5 @@
 # tests/test_text_preprocessing.py
-from kanaar_python_lib.text_preprocessing import remove_punctuation, lemmatize_text
+from ktools.text_preprocessing import remove_punctuation, lemmatize_text
 
 def test_remove_punctuation():
     test_text = "Some, string with: punctuation..."

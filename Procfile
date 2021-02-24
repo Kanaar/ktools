@@ -1,1 +1,1 @@
-web: pip install . -U && kanaar_python_lib-run
+web: pip install . -U && ktools-run

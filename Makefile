@@ -5,10 +5,10 @@ install_requirements:
 	@pip install -r requirements.txt
 
 check_code:
-	@flake8 scripts/* kanaar_python_lib/*.py
+	@flake8 scripts/* ktools/*.py
 
 black:
-	@black scripts/* kanaar_python_lib/*.py
+	@black scripts/* ktools/*.py
 
 test:
 	@coverage run -m pytest tests/*.py
@@ -22,8 +22,8 @@ clean:
 	@rm -f .coverage
 	@rm -fr */__pycache__ */*.pyc __pycache__
 	@rm -fr build dist
-	@rm -fr kanaar_python_lib-*.dist-info
-	@rm -fr kanaar_python_lib.egg-info
+	@rm -fr ktools-*.dist-info
+	@rm -fr ktools.egg-info
 
 install:
 	@pip install . -U
